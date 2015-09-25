@@ -9,3 +9,9 @@ var lowercase = function lowercase(message) {
 console.log(lowercase("HI THERE"));
 
 console.log(upcase("it works!"));
+
+var userUpcase = prompt("Type a sentence and I'll shout it back at you!");
+alert(upcase(userUpcase));
+
+var userLowercase = prompt("Now type a sentence and I'll whisper it back at you!");
+alert(lowercase(userLowercase));
