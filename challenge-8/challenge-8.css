@@ -1,0 +1,14 @@
+.btn {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(20%,#afcada), color-stop(80%,#9fbfd1));
+  text-shadow: none;
+  color: white;
+  height: 43px;
+}
+
+.btn a, .btn li a:hover {
+  color: white;
+}
+
+.btn:hover {
+  color: #dfdfdf;
+ }
